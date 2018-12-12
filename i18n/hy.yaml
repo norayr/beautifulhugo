@@ -1,0 +1,66 @@
+# Content
+- id: dateFormat
+  translation: "January 2, 2006"
+- id: shortdateFormat
+  translation: "Jan 2, 2006 15:04:05"
+- id: postedOnDate
+  translation: "Հրապարակուած է՝ {{ .Count }}"
+- id: lastModified
+  translation: "(Վերջին փոփոխութիւն {{ .Count }})"
+- id: translationsLabel
+  translation: "Այլ լեզուներ՝ "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Կարդալ աւելին"
+- id: olderPosts
+  translation: "Հին գրառումներ"
+- id: newerPosts
+  translation: "Նոր գրառումներ"
+- id: previousPost
+  translation: "Նախորդը"
+- id: nextPost
+  translation: "Յաջորդը"
+- id: readTime
+  translation: "րոպէ"
+- id: words
+  translation: "բառ"
+
+
+# 404 page
+- id: pageNotFound
+  translation: "աւաղ, այս հասցէով էջ չկայ։ մի ձեւ պէտք ա ապրես սրանից յետոյ։ (սխալ 404)"
+
+# Footer
+- id: poweredBy # Accepts HTML
+  translation: '<a href="http://gohugo.io">Hugo v{{ .Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>'
+
+# Navigation
+- id: toggleNavigation
+  translation: "Նաւարկում"
+- id: languageSwitcherLabel
+  translation: "Լեզու"
+- id: gcseLabelShort
+  translation: "Որոնում"
+- id: gcseLabelLong
+  translation: "Որոնել {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Փակել"
+
+# Staticman
+- id: noComment
+  translation: "Առանց մեկնաբանութիւնների"
+- id: oneComment
+  translation: "մեկնաբանութիւն"
+- id: moreComment
+  translation: "մեկնաբանութիւններ"
+- id: useMarkdown
+  translation: "Կարող ես օգտագործել նշաձեւ"
+- id: yourName
+  translation: "Քո անունը"
+- id: yourEmail
+  translation: "Քո էլ․ փոստի հասցէն"
+- id: yourWebsite
+  translation: "Քո կայքը"
+
+

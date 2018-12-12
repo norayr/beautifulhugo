@@ -41,6 +41,34 @@
                   {{ end }}
                 </div>
               {{ end }}
+
+              {{ if .Params.places }}
+                <div class="blog-tags">
+                  {{ range .Params.places }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/places/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.films }}
+                <div class="blog-tags">
+                  {{ range .Params.films }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/films/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.cameras }}
+                <div class="blog-tags">
+                  {{ range .Params.cameras }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/cameras/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+
+
+
             </article>
           {{ end }}
         </div>

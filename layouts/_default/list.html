@@ -40,12 +40,12 @@
                 {{ partial "post_meta.html" . }}
               </p>
               <div class="post-entry">
-                {{ if .Truncated }}
+{{/*                {{ if .Truncated }}
                   {{ .Summary }}
                   <a href="{{ .Permalink }}" class="post-read-more">[{{ i18n "readMore" }}]</a>
                 {{ else }}
-                  {{ .Content }}
-                {{ end }}
+  */}}                 {{ .Content }}
+  {{/*              {{ end }}    */}}
               </div>
 
               {{ if .Params.tags }}
@@ -55,6 +55,60 @@
                   {{ end }}
                 </div>
               {{ end }}
+
+              {{ if .Params.films }}
+                <div class="blog-tags">
+                  {{ range .Params.films }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/films/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.cameras }}
+                <div class="blog-tags">
+                  {{ range .Params.cameras }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/cameras/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.digicams }}
+                <div class="blog-tags">
+                  {{ range .Params.digicams }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/digicams/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.lenses }}
+                <div class="blog-tags">
+                  {{ range .Params.lenses }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/lenses/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.scanners }}
+                <div class="blog-tags">
+                  {{ range .Params.scanners }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/scanners/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ if .Params.places }}
+                <div class="blog-tags">
+                  {{ range .Params.places }}
+                    <a href="{{ $.Site.LanguagePrefix | absURL }}/places/{{ . | urlize }}/">{{ . }}</a>&nbsp;
+                  {{ end }}
+                </div>
+              {{ end }}
+
+
+
+
+
+
 
             </article>
           {{ end }}

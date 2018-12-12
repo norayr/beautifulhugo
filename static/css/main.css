@@ -1,11 +1,15 @@
 /* --- General --- */
+@font-face {
+    font-family: 'Arian Grqi';
+    src: url('http://norayr.am/weblog/Arian_Grqi_U.ttf');
+}
 
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Arian Grqi';
   font-size: 18px;
-  color: #404040;
+  color: #bebebe;
   position: relative;
-  background: #FFF;
+  background: #181818;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -34,19 +38,18 @@ p a {
   color: #008AFF;
 }
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   font-weight: 800;
 }
 a {
-  color: #008AFF;
+  color: #bebebe;
 }
 a:hover,
 a:focus {
-  color: #0085a1;
+  color: #bebebe;
 }
 blockquote {
-  color: #808080;
-  font-style: italic;
+  color: #bebebe;
 }
 blockquote p:first-child {
   margin-top: 0;
@@ -69,7 +72,7 @@ hr.small {
 }
 
 .main-explain-area {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   padding: 15px inherit;
 }
 
@@ -78,7 +81,7 @@ hr.small {
 }
 
 div.panel-body a.list-group-item {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   font-weight: 800;
   border-radius: 0;
   border: none;
@@ -136,13 +139,12 @@ img {
 /* --- Navbar --- */
 
 .navbar-custom {
-  background: #F5F5F5;
-  border-bottom: 1px solid #EAEAEA;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: #181818;
+  border-bottom: 1px solid #111111;
+  font-family: 'Arian Grqi';
 }
 
 .navbar-custom .nav li a {
-  text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -150,7 +152,7 @@ img {
 .navbar-custom .navbar-brand,
 .navbar-custom .nav li a {
   font-weight: 800;
-  color: #404040;
+  color: #bebebe;
 }
 
 .navbar-custom .navbar-brand:hover,
@@ -296,14 +298,14 @@ img {
 
 footer {
   padding: 30px 0;
-  background: #F5F5F5;
-  border-top: 1px #EAEAEA solid;
+  background: #181818;
+  border-top: 1px #111111 solid;
   margin-top: auto;
   font-size: 14px;
 }
 
 footer a {
-  color: #404040;
+  color: #bebebe;
 }
 
 footer .list-inline {
@@ -311,7 +313,7 @@ footer .list-inline {
   padding: 0;
 }
 footer .copyright {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   text-align: center;
   margin-bottom: 0;
 }
@@ -373,7 +375,6 @@ footer .theme-by {
 .post-heading .post-meta {
   color: #808080;
   font-size: 18px;
-  font-style: italic;
   margin: 0 0 10px;
 }
 .post-preview .post-meta a,
@@ -382,7 +383,7 @@ footer .theme-by {
   text-decoration: none;
 }
 .post-preview .post-entry {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
 }
 .post-entry-container {
   display: inline-block;
@@ -421,18 +422,18 @@ footer .theme-by {
 /* --- Tags --- */
 
 .blog-tags {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   color: #999;
   font-size: 15px;
   margin-bottom: 30px;
 }
 
 .blog-tags:before {
-  content: "Tags: ";
+  content: "// ";
 }
 
 .blog-tags a {
-  color: #008AFF;
+  color: #808080;
   text-decoration: none;
   padding: 0px 5px;
 }
@@ -524,7 +525,7 @@ footer .theme-by {
   font-size: 27px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -549,7 +550,7 @@ footer .theme-by {
   padding: 5px 10px;
   font-size: 11px;
   color: #EEE;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Arian Grqi';
   right: 0;
   bottom: 0;
   display: none;
@@ -614,7 +615,6 @@ footer .theme-by {
   text-align: center;
   font-size: 14px;
   padding: 10px;
-  font-style: italic;
   margin: 0;
   display: block;
   border-bottom-right-radius: 5px;
@@ -624,8 +624,7 @@ footer .theme-by {
 /* --- Pager --- */
 
 .pager li a {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase;
+  font-family: 'Arian Grqi';
   font-size: 14px;
   font-weight: 800;
   letter-spacing: 1px;
